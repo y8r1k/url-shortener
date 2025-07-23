@@ -21,5 +21,5 @@ cd url-shortener
 
 ```bash
 go build -o bin/shortener cmd/url-shortener/main.go
-CONFIG_PATH=./config/local.yaml ./shortener
+CONFIG_PATH=./config/local.yaml ./bin/shortener
 ```
