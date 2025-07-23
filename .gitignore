@@ -1,0 +1,38 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Build folders
+bin/
+build/
+
+# Go mod cache
+*.mod~
+*.sum~
+
+# Logs and temp
+*.log
+*.tmp
+*.out
+*.pid
+
+# SQLite database
+storage/*.db
+storage/*.sqlite
+storage/*.sqlite3
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Vendor dependencies
+vendor/

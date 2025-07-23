@@ -1,0 +1,8 @@
+env: "local" # local, dev, prod
+storage_path: "./storage/storage.db"
+http_server:
+  addres: "localhost:8082"
+  timeout: 4s # Время на чтение запроса, и такое же время на отправку ответа
+  idle_timeout: 60s # Время жизни соединения с клиентом. Если клиент делает много запросов за короткий промежуток времени, нет смысла закрывать соедиение
+  user: "myuser"
+  password: "mypass"
